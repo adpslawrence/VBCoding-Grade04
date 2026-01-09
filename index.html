@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebFrame - 專案連結入口網</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-800 selection:bg-blue-100">
+
+    <!-- 頂部導航列 -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2 font-bold text-xl text-gray-900 cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+                    <span class="font-bold">W</span>
+                </div>
+                WebFrame
+            </div>
+            <div class="text-sm text-gray-500 hidden sm:block">
+                專案連結入口網
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要內容區域 -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div>
+            <div class="mb-8 text-center sm:text-left">
+                <h1 class="text-3xl font-bold text-gray-900 mb-2">連結導航</h1>
+                <p class="text-gray-500">點擊下方按鈕將於新視窗開啟網頁</p>
+            </div>
+
+            <!-- 按鈕網格容器：直接使用靜態 HTML 確保顯示正常 -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                
+                <!-- 401 系列 -->
+                <a href="https://adpslawrence.github.io/401-01/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-blue-500 group-hover:scale-105 transition-transform duration-200">
+                        401-01
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/401-02/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-emerald-500 group-hover:scale-105 transition-transform duration-200">
+                        401-02
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/401-03/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-indigo-500 group-hover:scale-105 transition-transform duration-200">
+                        401-03
+                    </span>
+                </a>
+
+                <!-- 402 系列 -->
+                <a href="https://adpslawrence.github.io/402-01/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-pink-500 group-hover:scale-105 transition-transform duration-200">
+                        402-01
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/402-02/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-yellow-500 group-hover:scale-105 transition-transform duration-200">
+                        402-02
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/402-03/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-teal-500 group-hover:scale-105 transition-transform duration-200">
+                        402-03
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/402-04/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-gray-800 group-hover:scale-105 transition-transform duration-200">
+                        402-04
+                    </span>
+                </a>
+
+                <!-- 403 系列 -->
+                <a href="https://adpslawrence.github.io/403-01/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-orange-500 group-hover:scale-105 transition-transform duration-200">
+                        403-01
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/403-02/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-slate-600 group-hover:scale-105 transition-transform duration-200">
+                        403-02
+                    </span>
+                </a>
+
+                <a href="https://adpslawrence.github.io/403-03/" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-center justify-center p-4 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-blue-400 hover:bg-blue-50 transition-all duration-200 h-24 w-full no-underline cursor-pointer">
+                    <span class="text-lg font-bold text-white px-4 py-2 rounded-lg shadow-sm bg-purple-500 group-hover:scale-105 transition-transform duration-200">
+                        403-03
+                    </span>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="max-w-6xl mx-auto px-4 py-8 text-center text-gray-400 text-sm">
+        &copy; 2024 WebFrame Design System.
+    </footer>
+
+</body>
+</html>
